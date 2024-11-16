@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QLSP"
+        android:title="Quan ly san pham"
+        android:icon="@drawable/ic_product"/>
+
+    <item android:id="@+id/gioiThieu"
+        android:title="Gioi thieu"
+        android:icon="@drawable/icon_loop"/>
+
+    <item android:title="Khac">
+        <menu>
+            <item
+            android:id="@+id/caiDat"
+            android:title="Cai dat"
+            android:icon="@drawable/icon_setting"/>
+
+        <item
+            android:id="@+id/dangXuat"
+            android:title="Thoat"
+            android:icon="@drawable/icon_logout"/>
+
+        </menu>
+    </item>
+</menu>
